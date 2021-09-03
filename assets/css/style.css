@@ -6,6 +6,36 @@
 .section{
     margin-bottom: 160px;
 }
+.button--light{
+    width: 185px;
+    padding: 15px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #16c2a3;
+    color: #fff;
+    text-transform: uppercase;
+}
+.button--light:hover{
+    background-color: #4b4b4d;
+    color: #fff;
+    transition: .2s;
+}
+.button--dark{
+    width: 185px;
+    padding: 15px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4b4b4d;
+    color: #fff;
+    text-transform: uppercase;
+}
+.button--dark:hover{
+    background-color: #16c2a3;
+    color: #fff;
+    transition: .2s;
+}
 .navbar-toggler-icon{
     background-image: none !important;
     display: flex;
@@ -51,10 +81,6 @@
 }
 .banner-content__btn{
     background-color: #16c2a3;
-    width: 185px;
-    padding: 15px;
-    border-radius: 35px;
-    font-size: 16px;
     color: #fff;
 }
 .title{
@@ -69,10 +95,6 @@
 }
 .what-we-do__btn{
     background-color: #4b4b4d;
-    width: 185px;
-    padding: 15px;
-    border-radius: 35px;
-    font-size: 16px;
     color: #fff;
 }
 .what-we-do__btn:hover{
@@ -169,4 +191,57 @@
 }
 .promo-block__btn:focus{
     outline: none !important;
+}
+.stats{
+    display: flex;
+    column-gap: 50px;
+    margin-bottom: 15px;
+}
+.numbers{
+    border-right: 4px solid;
+    flex: 1 80%;
+    margin-right: 15px;
+    border-color: #16c2a3;
+    height: 85px;
+}
+.numbers__title{
+    font-size: 48px;
+    color: #16c2a3;
+}
+.numbers__text{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.support__title{
+    font-size: 36px;
+    color: #4b4b4d;
+}
+.support__text{
+    font-size: 18px;
+    color: #4b4b4d;
+}
+.support__content{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.blog__title{
+    font-size:36px;
+    color: #4b4b4d;
+}
+.blog__text{
+    font-size: 18px;
+    color: #4b4b4d;
+}
+.last-news__title{
+    font-size: 24px;
+    color: #16c2a3;
+    margin-bottom: 38px;
+}
+.last-news__link{
+    font-size: 18px;
+    color: #484949;
+    text-transform: uppercase;
 }
