@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .section{
-    margin-bottom: 160px;
+    margin-bottom: 80px;
+    padding-top: 80px;
 }
 .button--light{
     width: 185px;
@@ -41,6 +42,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
+}
+.navbar-toggler{
+    border-color: #fff !important;
 }
 .navbar{
     padding: .5rem 0rem !important;
@@ -49,6 +54,10 @@
     background-image: url(../images/mainbanner.png);
     background-size: cover;
     min-height: 100vh;
+}
+.banner-content{
+    position: absolute;
+    top: 250px;
 }
 .logo{
     margin: 0px;
@@ -64,10 +73,6 @@
 }
 .content{
     position: relative;
-}
-.banner-content{
-    position: absolute;
-    top: 250px;
 }
 .banner-content__title{
     font-size: 50px;
@@ -319,4 +324,74 @@
 .copyright__text{
     text-transform: capitalize;
     font-size: 16px;
+}
+@media (max-width: 767px){
+    .html .body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    .section{
+        margin-bottom: 0px;
+    }
+    .block{
+        margin: 50px 0;
+    }
+    .title,
+    .text,
+    .support__content{
+        text-align: center;
+    }
+    .button--light,
+    .button--dark{
+        margin:10px auto;
+        display: block;
+    }
+    .banner{
+        background-position: center;
+    }
+    .banner-content{
+        max-width: 90%;
+        top: 100px;
+    }
+    .navbar-collapse{
+        background-color: #54b8a48a;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .why-us{
+        text-align: center;
+    }
+    .stats{
+        display: block;
+        text-align: center;
+    }
+    .numbers{
+        border-right: none;
+        border-bottom: 4px solid;
+        height: auto;
+        padding-bottom: 15px;
+        margin-right: 0px;
+        border-color: #16c2a3;
+        margin-bottom: 15px;    
+    }
+    .last-news__title{
+        width: 90%;
+    }
+    .news{
+        grid-column-gap: 10px;
+        grid-template-columns: 1.5fr 2fr;
+    }
+    .news__text{
+        font-size: 18px;
+    }
+    .footer{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .footer__block{
+        margin: 10px 0; 
+    }
 }
